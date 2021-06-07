@@ -4,19 +4,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## How to start
 
-Run `npm install` to download packages.
-Run `node server` to start backend server (photo upload) - `http://localhost:8000/`.
-Run `npm run db` to start JSON server for post content handling -  `http://localhost:3000/`.
-Run `npm start` to start blog page app at `http://localhost:4200/`
+Run `npm install` to download packages.<br />
+Run `node server` to start backend server (photo upload) - `http://localhost:8000/`.<br />
+Run `npm run db` to start JSON server for post content handling -  `http://localhost:3000/`.<br />
+Run `npm start` to start blog page app at `http://localhost:4200/`<br />
 
 ## Used tech
 
--Angular
--Node.js + Express for backend handling
--JSON server for post content handling
--MDBootstrap for carousel at post page
--Formspree for contact form handling
--Firebase for User Authentication
+-Angular<br />
+-Node.js + Express for backend handling<br />
+-JSON server for post content handling<br />
+-MDBootstrap for carousel at post page<br />
+-Formspree for contact form handling<br />
+-Firebase for User Authentication<br />
 
 ## Further help
 
