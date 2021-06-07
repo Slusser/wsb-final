@@ -5,8 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## How to start
 
 Tested at:
-npm -v: 6.14.13
-node -v: 14.17.0
+npm -v: 6.14.13<br/>
+node -v: 14.17.0<br/>
 
 Run `npm install` to download packages.<br />
 Run `node server` to start backend server (photo upload) - `http://localhost:8000/`.<br />
