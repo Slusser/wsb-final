@@ -1,0 +1,66 @@
+
+.post_content{
+    padding-top: 65px;
+}
+
+.find{
+    background-color: #343a40;
+    text-align: right;
+    
+}
+
+.find input{
+    border-radius: 10%;
+    opacity: 70%;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    z-index: 0;
+}
+.find .find-tn{
+    margin-right: 0.5em;
+}
+
+.carousel-containter{
+background-color: black;
+height: 95vh;
+}
+
+.img_class{
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.img_frame {
+    height: 85vh;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+
+@media only screen and (min-width: 451px) and (max-width: 930px) {
+    p{font-size: smaller;}
+
+ h6{ font-size: medium;
+     font-weight: 100;}
+
+ h3{ font-size: medium;}
+  }
+
+@media only screen and (max-width: 450px) {
+ p{font-size: x-small;}
+
+ h6{ font-size: small;
+     font-weight: 100;}
+
+ h3{ font-size: smaller;}
+  }
+

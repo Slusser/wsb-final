@@ -1,0 +1,22 @@
+<div class="post_content">
+  <section class="find">
+    <input type="text" #querryInput>
+    <button type="button" (click)="find()" class="btn btn-secondary btn-sm find-tn">Find</button></section>
+<div class="carousel-containter">
+    <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+        <ng-container *ngFor='let item of posts'> 
+            <mdb-carousel-item>
+            <div class="view w-100 img_frame" >
+              <img class="d-block img_class" src="http://localhost:8080/files/{{item.src}}" alt={{item.title}}>
+              <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+            </div>
+            <div class="carousel-caption" style="max-width: 40%; margin-left: auto; margin-right: auto;">
+              <h3>{{item.title}}</h3>
+              <h6>{{item.date}}</h6>
+              <p >{{item.text}}</p>
+            </div>
+          </mdb-carousel-item>     
+        </ng-container>
+      </mdb-carousel>
+</div>
+</div>

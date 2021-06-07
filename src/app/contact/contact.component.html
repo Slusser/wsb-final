@@ -1,0 +1,11 @@
+<div id="contact_background">
+    <div class="contact_center">
+        <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+            <p><input type="text" placeholder="Name" name="name" ngModel required #name="ngModel" ></p>
+            <p><input type="text" placeholder="Email" email name="email" ngModel required #email="ngModel"></p>
+            <p><textarea placeholder="Message" name="messages" ngModel required #messages="ngModel"></textarea></p>
+            <p><input type="submit" value="Send"></p>
+            <div ng-cloak  *ngIf="messageSuccess"><strong><i class="icon-attention"></i>Success!</strong> Email has been sent.</div>
+        </form>
+    </div>
+</div>

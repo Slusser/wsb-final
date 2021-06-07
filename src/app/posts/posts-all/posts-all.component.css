@@ -1,0 +1,58 @@
+.post_content{
+    padding-top: 65px;
+}
+
+.list-wraper{
+    background-color: black;
+    min-height: 60em;
+
+}
+
+.detail{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    background-color: lightgray;
+    border-radius: 1em;
+    opacity: 80%;
+}
+
+.detail:first-of-type{
+    margin-top: 10em;
+}
+.detail:last-of-type{
+    margin-bottom: 0em;
+}
+
+.post_container{
+ background-color: #343a40;
+
+}
+
+.post_tlt{
+    text-align: center;
+}
+
+.post_date{
+    text-align: center;
+    font-weight: 200;
+}
+
+.img_content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3em;
+    height: 50vh;
+}
+
+.post_text{
+    text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navi_btn{
+    text-align: right;
+}
+

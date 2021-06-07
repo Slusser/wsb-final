@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "title": "Post numer 2",
+      "date": "2021-05-06",
+      "src": "_DSC1071-76.jpg",
+      "text": "elo",
+      "id": 2
+    },
+    {
+      "title": "gsdg",
+      "date": "2021-05-06",
+      "src": "_DSC0586-1.jpg",
+      "text": "terssdf",
+      "id": 3
+    },
+    {
+      "title": "Grzyp",
+      "date": "2021-05-07",
+      "src": "_DSC0013.jpg",
+      "text": "lorem ipsum cos tam cos tam",
+      "id": 4
+    },
+    {
+      "title": "sdf",
+      "date": "2021-05-08",
+      "src": "_DSC0267.jpg",
+      "text": "sdf",
+      "id": 5
+    },
+    {
+      "title": "sdf",
+      "date": "2021-05-09",
+      "src": "_DSC0907.jpg",
+      "text": "23423",
+      "id": 6
+    },
+    {
+      "title": "sdf",
+      "date": "2021-05-10",
+      "src": "_DSC1124-1-2.jpg",
+      "text": "wesfwsedfsdf sdfsdfsd sdfsdf sdfsdfsdf sdfsdfsdf sdfsdfsd sdfsdfsd sdfsdfsdf sdfsdfsdf sdf",
+      "id": 7
+    }
+  ]
+}

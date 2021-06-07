@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "title": "Wrocław",
+      "date": "2021-05-01",
+      "src": "_DSC0267.jpg",
+      "fileSource": "C:\\fakepath\\_DSC0267.jpg",
+      "fileName": {},
+      "text": "Hala stulecia - Wrocław",
+      "id": 1
+    },
+    {
+      "title": "Duomo di Milano",
+      "date": "2021-06-03",
+      "src": "_DSC0586-1.jpg",
+      "fileSource": "C:\\fakepath\\_DSC0586-1.jpg",
+      "fileName": {},
+      "text": " Dach katedry w Mediolanie",
+      "id": 2
+    },
+    {
+      "title": " Krynica Zdrój",
+      "date": "2021-06-09",
+      "src": "_DSC0907.jpg",
+      "fileSource": "C:\\fakepath\\_DSC0907.jpg",
+      "fileName": {},
+      "text": " Widok z wieży widokowej w Krynicy-Zdrój",
+      "id": 3
+    },
+    {
+      "title": " Kot",
+      "date": "2021-06-10",
+      "src": "_DSC1124-1-2.jpg",
+      "fileSource": "C:\\fakepath\\_DSC1124-1-2.jpg",
+      "fileName": {},
+      "text": " Kot. Rudy. Wredny.",
+      "id": 4
+    },
+    {
+      "title": " Pustynia Błędowska",
+      "date": "2021-06-12",
+      "src": "_DSC0748.jpg",
+      "fileSource": "C:\\fakepath\\_DSC0748.jpg",
+      "fileName": {},
+      "text": " Noc spadających gwiazd na Pustyni Błędowskiej",
+      "id": 5
+    },
+    {
+      "title": " Malinowska Skała",
+      "date": "2021-06-27",
+      "src": "_DSC0181.jpg",
+      "fileSource": "C:\\fakepath\\_DSC0181.jpg",
+      "fileName": {},
+      "text": " Wschód słońca na Malinowskiej Skale",
+      "id": 6
+    },
+    {
+      "title": "Wyspa Lobos",
+      "date": " ",
+      "src": "IMG_6642.JPG",
+      "fileSource": "C:\\fakepath\\IMG_6642.JPG",
+      "fileName": {},
+      "text": " Bezludna wyspa Lobos archipelagu wysp kanaryjskich.",
+      "id": 7
+    }
+  ]
+}

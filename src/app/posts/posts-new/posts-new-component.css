@@ -1,0 +1,78 @@
+#post_new_background{
+    background-image: url('src/assets/_DSC1071-76.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.post_new_center{
+    text-align: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    font-size: 1.5em;
+    line-height: 1em;
+    padding: 0.75em;
+    background-color: lightgray;
+    opacity: 90%;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.post_new_center .inline{
+    display: inline-flex;
+}
+
+.post_new_center .inline input{
+    margin-right: 5vh;
+}
+
+input{
+    margin-bottom: 1vh;
+}
+
+.post_new_center .textfield{
+    height: 15vh;
+    width: 45vw;
+}
+
+.error{
+    color: red;
+    font-size: small;
+}
+
+
+@media only screen and (min-width: 451px) and (max-width: 1024px) {
+    .post_new_center{
+        font-size: 0.75em;
+        padding-top: 1em;
+    }
+
+    legend{
+        font-size: 1.5em;
+    }
+
+    h2{
+        font-size: 1.75em;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .post_new_center{
+        font-size: 0.75em;
+        padding-top: 2.5em;
+    }
+
+    input{
+        width: 40vw;
+    }
+
+    .post_new_center .textfield{
+        height: 10vh;
+        width: 45vw;
+    }
+}

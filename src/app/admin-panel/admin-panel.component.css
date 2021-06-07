@@ -1,0 +1,72 @@
+#admin_background{
+    background-image: url('src/assets/_DSC1071-76.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.admin_center{
+    text-align: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 25vw;
+    height: 10vh;
+    margin: auto;
+    font-size: 1.5em;
+    line-height: 1em;
+    padding: 0.75em;
+    background-color: lightgray;
+    opacity: 90%;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.admin_content{
+    text-align: center;
+    height: 100%;   
+}
+
+
+.admin_button{
+    margin: 1em;
+    vertical-align: middle;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 451px) and (max-width: 1090px) {
+    .admin_center{
+        width: 50vw;
+        height: 30vh;
+    }
+
+    .admin_button{
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .admin_center{
+        width: 60vw;
+        height: 25vh;
+    }
+
+    .admin_button{
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+        vertical-align: middle;
+    }
+}

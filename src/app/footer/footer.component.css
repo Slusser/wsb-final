@@ -1,0 +1,23 @@
+footer{
+    background-color: #343a40;
+    color: white;
+}
+
+.footer_text{
+    text-align: center;
+}
+
+.insta{
+    text-align: center;
+    margin: 0;
+}
+
+a{
+    color: white;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    margin-right: 1em;
+}

@@ -1,0 +1,10 @@
+<div id="login_background">
+  <div class="login_center">
+    <h2>Log in</h2>
+    <form #formData='ngForm' (ngSubmit)='onSubmit(formData)'>
+      <input type="text" placeholder="Email address" (ngModel)="email" name="email" required>
+      <input type="password" placeholder="Password" (ngModel)="password" name="password" required>
+      <button type="submit" [disabled]="!formData.valid" class="btn btn-secondary login_button">Log in</button>
+    </form>
+  </div>
+</div>

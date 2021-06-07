@@ -1,0 +1,36 @@
+<mat-dialog-content class="mat-typography">
+  <form autocomplete="off" novalidate [formGroup]='postsFormEdit'>
+
+    <section>
+        <fieldset>
+            <legend>Title</legend>
+            <input type="text" formControlName="title" class="inputfld">
+            <p *ngIf="postsFormEdit.get('title').errors?.minlength" class="error">Tytuł posta musi mieć co najmniej 5 znaki!</p>
+        </fieldset>
+    </section>
+
+    <section>
+        <fieldset>
+           <legend>Date</legend> 
+           <input type="date" formControlName="date" class="inputfld">
+        </fieldset>
+    </section>
+
+    <section>
+        <fieldset>
+            <legend>Source</legend>
+            <input type="file" formControlName='fileSource' (change)="onFileSelected($event)">
+        </fieldset>
+    </section>
+
+    <section>
+        <fieldset>
+            <legend>Text</legend>
+            <textarea type="text" role="textbox" formControlName="text" class="inputfld textfld"></textarea>
+        </fieldset>
+    </section>
+
+</form>
+</mat-dialog-content>    <mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close (click)='save()'>Save</button>
+</mat-dialog-actions>

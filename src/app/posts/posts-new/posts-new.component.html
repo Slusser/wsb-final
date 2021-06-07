@@ -1,0 +1,32 @@
+<div id="post_new_background">
+    <div class="post_new_center">
+        <h2>Add new post</h2>
+        <form autocomplete="off" novalidate [formGroup]='postsForm' #formDirective="ngForm" >
+            <section class="inline">
+                <fieldset>
+                    <legend>Title</legend>
+                    <input type="text" formControlName="title">
+                    <p *ngIf="showErrors && postsForm.get('title').errors?.minlength" class="error">Tytuł posta musi mieć co najmniej 3 znaki!</p>
+                </fieldset>
+            </section>
+            <section class="inline">
+                <fieldset>
+                   <legend>Date</legend> 
+                   <input type="date" formControlName="date">
+                </fieldset>
+            </section>
+                    <legend>Source</legend>
+                    <input type="file" formControlName='fileSource' (change)="onFileSelected($event)"> 
+            <section>
+                <fieldset>
+                    <legend>Text</legend>
+                    <input type="text" formControlName="text" class="textfield">
+                    <p *ngIf="showErrors && postsForm.get('text').errors?.minlength" class="error">Tytuł posta musi mieć co najmniej 10 znaków!</p>
+                </fieldset>
+            </section>
+            <section>
+                <button type="button" (click)='save()' >Save</button>
+            </section>
+        </form>     
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="list-wraper">
+    <div class="post_content" style="max-width: 60%; margin-left: auto; margin-right: auto;">
+    <details *ngFor='let item of posts' id="{{item.id}}" class="detail">
+        <summary>{{item.title}}</summary>
+        <div class="columns" id="post_header">
+            <div class="column is-full" id="post_container">
+                <div class="navi_btn"><a (click)="deletePostbyId(item.id)"><i class='fa fa-trash'></i></a>
+                    <button mat-button (click)="openDialog(item.id,item.title,item.date,item.text,item.src)">Edit</button></div>
+                <div class="post_tlt">
+                    Post title: {{item.title}}
+                </div>
+                <div class="post_date">
+                    Date: {{item.date}}
+                </div>
+                <img class="img_content" src="http://localhost:8080/files/{{item.src}}" >
+                <div class="post_text">
+                    Text: {{item.text}}
+                    <hr>
+                </div>
+            </div>
+        </div>
+      </details>
+</div></div>
