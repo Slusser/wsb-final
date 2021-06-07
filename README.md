@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## How to start
 
-Tested at:
+Tested at:<br/>
 npm -v: 6.14.13<br/>
 node -v: 14.17.0<br/>
 
