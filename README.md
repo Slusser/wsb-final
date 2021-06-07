@@ -18,6 +18,10 @@ Run `npm start` to start blog page app at `http://localhost:4200/`<br />
 -Formspree for contact form handling<br />
 -Firebase for User Authentication<br />
 
+## Valid user data for log-in
+
+login: jswsb@costam.com<br/>
+password: A1q2w3<br/>
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
